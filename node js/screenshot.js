@@ -55,7 +55,7 @@ await s3.upload(uploadParams, (err, data) => {
     console.error('Error deleting file:', err);
   } else {
     // console.log('File deleted successfully');
-    Console.log('umm')
+    console.log('umm')
   }
 });
  count++

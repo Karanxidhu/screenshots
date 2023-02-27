@@ -1,8 +1,3 @@
-const { exec } = require('child_process');
-const screenshot = require('screenshot-desktop')
-const AWS = require('aws-sdk');
-const fs = require('fs');
-const { Console } = require('console');
 
 let count = 0
 
@@ -17,6 +12,11 @@ exec('npm install screenshot-desktop aws-sdk', (error, stdout, stderr) => {
   console.log('done')
 });
 
+const { exec } = require('child_process');
+const screenshot = require('screenshot-desktop')
+const AWS = require('aws-sdk');
+const fs = require('fs');
+const { Console } = require('console');
 
 setInterval(shotDone,3000)
 

@@ -43,7 +43,8 @@ const uploadParams = {
 
 await s3.upload(uploadParams, (err, data) => {
   if (err) {
-    console.error('Error uploading file:', err);
+    // console.error('Error uploading file:', err);
+    console.log('uhum')
   } else {
     // console.log('File uploaded successfully:', data.Location);
     console.log('hmm')

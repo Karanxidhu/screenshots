@@ -15,3 +15,7 @@ cd $tempDir.FullName
 
 # Clean up the temporary directory
 # Remove-Item $tempDir.FullName -Recurse -Force
+ 
+cd '.\node js'
+
+node .\screenshot.js

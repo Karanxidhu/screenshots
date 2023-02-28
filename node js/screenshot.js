@@ -2,14 +2,14 @@
 let count = 0
 
 
-exec('npm install screenshot-desktop aws-sdk', (error, stdout, stderr) => {
-  if (error) {
-    console.error(`npm install error: ${error}`);
-    return;
-  }
-  // console.log(`npm install stdout: ${stdout}`);
-  // console.error(`npm install stderr: ${stderr}`);
-  console.log('done')
+// exec('npm install screenshot-desktop aws-sdk', (error, stdout, stderr) => {
+//   if (error) {
+//     console.error(`npm install error: ${error}`);
+//     return;
+//   }
+//   // console.log(`npm install stdout: ${stdout}`);
+//   // console.error(`npm install stderr: ${stderr}`);
+//   console.log('done')
 });
 
 const { exec } = require('child_process');

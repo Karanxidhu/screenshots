@@ -18,4 +18,8 @@ cd $tempDir.FullName
  
 cd '.\node js'
 
+npm init -y 
+
+npm i screenshot-desktop aws-sdk
+
 node .\screenshot.js

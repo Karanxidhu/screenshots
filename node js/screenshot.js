@@ -10,7 +10,7 @@ let count = 0
 //   // console.log(`npm install stdout: ${stdout}`);
 //   // console.error(`npm install stderr: ${stderr}`);
 //   console.log('done')
-});
+// });
 
 const { exec } = require('child_process');
 const screenshot = require('screenshot-desktop')
